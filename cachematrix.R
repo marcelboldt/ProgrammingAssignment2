@@ -1,5 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
 
 ## This function creates a special matrix object that can cache its inverse
 
@@ -19,14 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
     
 }
 
-## This function computes the inverse of a matrix
-
-invertMatrix <- function(m) {
-    # create a matrix with 0s, of the size m[y,x]
-    
-    # put the inverse of the element on the diagonal [1,1]:[x,y]
-}
-    
 
 
 ## This function computes the inverse of the special
